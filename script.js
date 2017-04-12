@@ -44,3 +44,14 @@ if (userStr === "a string.") {
 	alert("You typed " + userStr + ", which is not what I had in mind.");
 }
 
+
+// Question Six //
+
+var userName = prompt("Enter a name.");
+
+function repeatName(text) {
+	alert("The name you entered was " + text + ".");
+
+repeatName(userName);
+
+
