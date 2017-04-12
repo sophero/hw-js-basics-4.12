@@ -64,3 +64,25 @@ function messageConsole() {
 messageConsole();
 
 
+// Question Eight //
+
+function prizeGiver(door) {
+
+	if (door === "door1") {
+		var prize = "a guitar";
+	} else if (door === "door2") {
+		var prize = "a trip to Hawaii";
+	} else if (door === "door3") {
+		var prize = "a jar full of quarters";
+	}
+
+	alert("Congratulations, you receive " + prize + "!");
+
+}
+
+prizeGiver("door1");
+prizeGiver("door2");
+prizeGiver("door3");
+
+
+
