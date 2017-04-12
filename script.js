@@ -52,7 +52,6 @@ var userName = prompt("Enter a name.");
 function repeatName(text) {
 	alert("The name you entered was " + text + ".");
 }
-
 repeatName(userName);
 
 
@@ -68,21 +67,21 @@ messageConsole();
 
 function prizeGiver(door) {
 
-	if (door === "door1") {
+	if (door == 1) {
 		var prize = "a guitar";
-	} else if (door === "door2") {
+	} else if (door == 2) {
 		var prize = "a trip to Hawaii";
-	} else if (door === "door3") {
+	} else if (door == 3) {
 		var prize = "a jar full of quarters";
 	}
 
-	alert("Congratulations, you receive " + prize + "!");
+	alert("You selected door number " + door + ". Congratulations, you receive " + prize + "!");
 
 }
 
-prizeGiver("door1");
-prizeGiver("door2");
-prizeGiver("door3");
+prizeGiver(1);
+prizeGiver(2);
+prizeGiver(3);
 
 
 
