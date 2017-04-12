@@ -19,7 +19,7 @@ console.log(multiArray[0][2]);
 console.log(multiArray[1][0]);
 
 
-// Question Three //
+// Questions Three and Four //
 
 var userInput = prompt("Enter a number.");
 
