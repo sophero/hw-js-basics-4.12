@@ -51,7 +51,9 @@ var userName = prompt("Enter a name.");
 
 function repeatName(text) {
 	alert("The name you entered was " + text + ".");
+}
 
 repeatName(userName);
+
 
 
