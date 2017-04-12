@@ -34,3 +34,13 @@ if (userInput < 100) {
 }
 
 
+// Question Five //
+
+var userStr = prompt("Enter a string.");
+
+if (userStr === "a string.") {
+	alert("You typed a string. Well done!");
+} else {
+	alert("You typed " + userStr + ", which is not what I had in mind.");
+}
+
