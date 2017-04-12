@@ -18,3 +18,19 @@ var multiArray = [guitaristsArray, drummersArray];
 console.log(multiArray[0][2]);
 console.log(multiArray[1][0]);
 
+
+// Question Three //
+
+var userInput = prompt("Enter a number.");
+
+if (userInput < 100) {
+	alert('Your number is less than 100.');
+} else if (userInput > 100) {
+	alert('You entered ' + userInput + ', which is greater than 100.');
+} else if (userInput == 100) {
+	alert('You entered 100!');
+} else {
+	alert('Not sure if that was a number.');
+}
+
+
